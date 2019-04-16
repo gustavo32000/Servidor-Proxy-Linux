@@ -1,0 +1,22 @@
+#Ajuste o endereço IP do servidor nas configurações de Proxy do navegador.
+#Se você nao sabe qual o endereço IP do seu servidor digite.
+
+sudo ifconfig
+
+Abra o Firefox e siga os passos abaixo:
+
+https://tidahora.com.br/wp-content/uploads/2017/12/servidor-squid-proxy-ubuntu-19.png
+https://tidahora.com.br/wp-content/uploads/2017/12/servidor-squid-proxy-ubuntu-20-1024x434.png
+https://tidahora.com.br/wp-content/uploads/2017/12/servidor-squid-proxy-ubuntu-21.png
+
+Feche as configurações e o navegador e abra-o novamente.
+
+Será solicitado Login e Senha para acesso a Internet:
+
+https://tidahora.com.br/wp-content/uploads/2017/12/servidor-squid-proxy-ubuntu-22-1024x488.png
+
+#Vamos acessar um site que está na lista de Bloqueados:
+
+www.globo.com
+
+#O squid está configurado.
