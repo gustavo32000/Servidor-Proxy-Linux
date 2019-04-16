@@ -1,7 +1,7 @@
-#
+#Verificar se há atualizações.
 sudo apt-get update
 
-#
+#Baixar e instalar o squid.
 sudo apt-get install squid
 
 #Pronto o squid está instalado.
