@@ -1,0 +1,11 @@
+#Instale o Apache no servidor Linux Ubuntu, o apache possui um programa que iremos utilizar para gerar os logins e senhas.
+sudo apt-get install apache2
+
+#Criando os usuários com o comando “htpasswd”, utilize o comando abaixo, somente pela primeira vez, para criar o arquivo:
+sudo htpasswd -c /etc/squid/usuarios gugu
+
+#Para criar usuários.
+sudo htpasswd /etc/squid/usuarios gugu2
+
+#Agora vamos recarregar as configurações do squid.
+sudo squid -k reconfigure
