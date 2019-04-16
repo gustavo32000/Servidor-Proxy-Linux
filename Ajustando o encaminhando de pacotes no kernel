@@ -1,0 +1,11 @@
+#Para que possamos acessar a Internet através de um servidor proxy no Linux, é preciso ativarmos o encaminhamento de pacotes no kernel, para que possamos compartilhar a rede do servidor.
+#Esse procedimento precisa ser feito pelo usuário “root”.
+#Caso voce nao tenha definido a senha para o usuario root, vamos definir abaixo:
+#Acessando o console como “root”.
+sudo su 
+
+#Habilitando o encaminhamento de pacotes.
+echo 1 >> /proc/sys/net/ipv4/ip_forward
+
+
+
